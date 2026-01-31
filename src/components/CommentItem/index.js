@@ -56,7 +56,7 @@ const CommentItem = props => {
           data-testid="delete"
         >
           <img
-            src="/images/delete-img.png "
+            src="/Comments-App/images/delete-img.png "
             alt="delete"
             className="comment-delete-icon"
           />
