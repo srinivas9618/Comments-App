@@ -1,70 +1,133 @@
-# Getting Started with Create React App
+# Comments App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based comments application that allows users to add, like, and delete comments with a clean and interactive user interface.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+🌐 [View Live Demo](https://srinivas9618.github.io/Feedback-page/)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ✏️ **Add Comments** - Users can enter their name and comment text to add new comments
+- 👍 **Like Comments** - Toggle like/unlike functionality for each comment
+- 🗑️ **Delete Comments** - Remove comments from the list
+- ⏰ **Time Distance** - Displays how long ago each comment was posted
+- 🎨 **Color-coded Avatars** - Random background colors for user avatar initials
+- 📱 **Responsive Design** - Works seamlessly on desktop and mobile devices
+- ✅ **Form Validation** - Prevents empty comments from being posted
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **React** - UI library (Class Components)
+- **CSS3** - Styling
+- **UUID** - Unique ID generation for comments
+- **date-fns** - Time formatting and distance calculation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+```
+src/
+├── CommentsApp/
+│   ├── index.js          # Main comments component
+│   └── index.css         # Styling
+├── CommentItem/
+│   ├── index.js          # Individual comment component
+│   └── index.css         # Styling
+└── images/
+    ├── comments-img.png
+    ├── like-img.png
+    ├── liked-img.png
+    ├── delete-img.png
+    └── comments-img.png
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js (v12 or higher)
+- npm or yarn
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/srinivas9618/Feedback-page.git
+   cd Feedback-page
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Open your browser**
+   ```
+   http://localhost:3000
+   ```
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Add a Comment**
+   - Enter your name in the "Your Name" field
+   - Type your comment in the "Your Comment" field
+   - Click the "Add Comment" button
+   - Your comment will appear in the comments list
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Like a Comment**
+   - Click the like button (👍) on any comment
+   - The button will highlight when liked
+   - Click again to unlike
 
-### Code Splitting
+3. **Delete a Comment**
+   - Click the delete button (🗑️) on any comment
+   - The comment will be removed immediately
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Component Details
 
-### Analyzing the Bundle Size
+### CommentsApp
+- **State Management**: Manages form inputs and comments list
+- **Functions**:
+  - `onChangeNameInput()` - Updates name input state
+  - `onChangeCommentInput()` - Updates comment input state
+  - `addComment()` - Creates new comment with validation
+  - `toggleCommentLike()` - Toggles like status
+  - `deleteComment()` - Removes comment from list
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### CommentItem
+- **Props**: Receives comment data and action handlers
+- **Features**:
+  - Displays user avatar with initial and background color
+  - Shows comment text and time elapsed
+  - Provides like and delete buttons
+  - Responsive layout
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Future Enhancements
 
-### Advanced Configuration
+- 📝 Edit existing comments
+- 🔍 Search/filter comments
+- 💾 Local storage persistence
+- 🌙 Dark mode support
+- 👤 User profiles
+- 📊 Comment sorting options
+- ⭐ Rating system
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing
 
-### Deployment
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author
 
-### `npm run build` fails to minify
+**Srinivas** - [GitHub Profile](https://github.com/srinivas9618)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Support
+
+If you encounter any issues or have questions, please create an issue in the GitHub repository.
+
+---
