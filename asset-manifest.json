@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Comments-App/static/css/main.43ffc805.css",
-    "main.js": "/Comments-App/static/js/main.aabba779.js",
+    "main.js": "/Comments-App/static/js/main.79325dd4.js",
     "static/js/453.f6368049.chunk.js": "/Comments-App/static/js/453.f6368049.chunk.js",
     "index.html": "/Comments-App/index.html",
     "main.43ffc805.css.map": "/Comments-App/static/css/main.43ffc805.css.map",
-    "main.aabba779.js.map": "/Comments-App/static/js/main.aabba779.js.map",
+    "main.79325dd4.js.map": "/Comments-App/static/js/main.79325dd4.js.map",
     "453.f6368049.chunk.js.map": "/Comments-App/static/js/453.f6368049.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43ffc805.css",
-    "static/js/main.aabba779.js"
+    "static/js/main.79325dd4.js"
   ]
 }
