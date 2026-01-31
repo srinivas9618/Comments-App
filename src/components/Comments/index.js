@@ -88,7 +88,7 @@ class CommentsApp extends Component {
           <h1 className="heading">Comments</h1>
           <div className="mid-container">
             <img
-              src="/images/comments-img.png"
+              src="/Comments-App/public/images/comments-img.png"
               alt="comments"
               className="comments-img"
             />
