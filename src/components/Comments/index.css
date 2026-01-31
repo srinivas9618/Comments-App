@@ -1,0 +1,133 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  padding: 24px 0px;
+  align-items: flex-start;
+}
+.comments-app-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 700px;
+}
+.mid-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.comments-img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form-description {
+  color: #475569;
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.name-input {
+  outline: none;
+  align-self: stretch;
+  padding: 10px;
+  font-size: 12px;
+  color: #1e293b;
+  border: 1px solid #dee0e3;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.comment-input {
+  outline: none;
+  align-self: stretch;
+  height: 80px;
+  padding: 10px;
+  font-size: 12px;
+  color: #1e293b;
+  border: 1px solid #dee0e3;
+  border-radius: 2px;
+  margin-bottom: 14px;
+}
+.add-comment-btn {
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  background-color: #0284c7;
+  padding: 6px 8px;
+  font-size: 12px;
+  margin-bottom: 14px;
+}
+.line {
+  width: 100%;
+  border: none;
+  border-top: 2px solid #dee0e3;
+  margin-bottom: 14px;
+}
+.comments-count {
+  font-size: 12px;
+  padding: 1px 5px;
+  border-radius: 2px;
+  background-color: #0284c7;
+  margin-right: 5px;
+  color: white;
+}
+.comments-counter {
+  font-size: 12px;
+  color: #475569;
+  margin-bottom: 20px;
+}
+.comments-container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .app-container {
+    padding: 48px 0px;
+  }
+
+  .mid-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heading {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  .comments-img {
+    width: 300px;
+    margin-bottom: 0px;
+  }
+  .form-container {
+    order: -1;
+  }
+  .form-description {
+    font-size: 16px;
+  }
+  .name-input {
+    width: 300px;
+    font-size: 16px;
+  }
+  .comment-input {
+    width: 300px;
+    font-size: 16px;
+  }
+
+  .comments-count {
+    font-size: 16px;
+  }
+  .comments-counter {
+    font-size: 16px;
+    color: #475569;
+  }
+}
