@@ -23,24 +23,6 @@ A React-based comments application that allows users to add, like, and delete co
 - **UUID** - Unique ID generation for comments
 - **date-fns** - Time formatting and distance calculation
 
-## Project Structure
-
-```
-src/
-├── CommentsApp/
-│   ├── index.js          # Main comments component
-│   └── index.css         # Styling
-├── CommentItem/
-│   ├── index.js          # Individual comment component
-│   └── index.css         # Styling
-└── images/
-    ├── comments-img.png
-    ├── like-img.png
-    ├── liked-img.png
-    ├── delete-img.png
-    └── comments-img.png
-```
-
 ## Getting Started
 
 ### Prerequisites
@@ -52,7 +34,7 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/srinivas9618/Feedback-page.git
+   git clone https://github.com/srinivas9618/Comments-App.git
    cd Feedback-page
    ```
 
@@ -125,9 +107,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Author
 
 **Srinivas** - [GitHub Profile](https://github.com/srinivas9618)
-
-## Support
-
-If you encounter any issues or have questions, please create an issue in the GitHub repository.
 
 ---
