@@ -4,7 +4,7 @@ A React-based comments application that allows users to add, like, and delete co
 
 ## Live Demo
 
-🌐 [View Live Demo](https://srinivas9618.github.io/Feedback-page/)
+🌐 [View Live Demo](https://srinivas9618.github.io/Comments-App/)
 
 ## Features
 
